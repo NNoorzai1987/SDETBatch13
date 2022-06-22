@@ -1,0 +1,41 @@
+Class 02
+
+scr -> package1 -> many classes
+	-> package2 -> another many classes
+
+{} - block of code
+
+public class Recap {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello");
+	}
+}
+
+DataTypes in Java: 2
+
+1. primitives:
+			byte
+			short
+			int
+			long
+			float
+			double
+			char
+			boolean
+2. non primitives
+			String
+			unlimited
+
+variable - placeholder/box/container
+
+com.syntax.class02
+
+WaysToCreateVariable
+
+Operators:
+
+Assignment Operator =
+
+Arithmetic Operators +, -, *, /, %

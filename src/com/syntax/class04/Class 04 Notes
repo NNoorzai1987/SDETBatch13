@@ -1,0 +1,88 @@
+Class 4
+
+2 types of casting
+
+widening/implicit casting
+
+double d=1000;
+SOPln(d); 1000.00
+
+narrowing/explicit casting
+
+int i =10.99; error: cannot convert double into integer
+
+int i =(int)10.99;
+SOPln(i); 10
+
+Conditional statement:
+
+if statement
+
+Syntax
+
+if (true condition) {
+
+	code A.
+}
+------------------
+if (true condition) {
+
+	code A
+
+}else {
+
+	code B
+}
+--------------------------
+This statement used to test various conditions
+
+if (true condition) {
+	code A;
+} else if (true condtion) {
+	code B;
+} else if (true condition) {
+	code C;
+}else { ==when none of conditions are true
+	code D;
+}
+-------------------
+
+To Debug:
+
+Step 1: put a breakpoint
+
+Step 2 : Debug Java Application
+
+Step 3: click on step over
+
+Step 4: makes sure to step over till end of the program OR terminate by clicking red square
+
+
+	int a = 0;
+
+	if (a > 0) {
+		System.out.println(a + " is positive");
+
+	} else if (a = 0) { -> error, since
+	                  condition is not a boolean
+		System.out.println(a + " is not positive or negative");
+
+	} else {
+		System.out.println(a + " is negative");
+	}
+
+____________________________________________
+
+Nested If
+
+if (boolean expression) { //outer if
+
+	code A;
+
+	if (boolean expression) { //nested/inner
+		code B;
+	}
+
+}
+
+Code C

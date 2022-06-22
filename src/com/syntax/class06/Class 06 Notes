@@ -1,0 +1,68 @@
+Class 6
+
+Logical Operators -
+WHAT  - && , || , !
+WHY - when we want to test 2 or more conditions
+
+HOW - ?
+
+AND &&
+true && true  --> TRUE
+true && false --> FALSE
+false && true --> FALSE
+false && false --> FALSE
+
+boolean sunny=false;
+boolean hot=true;
+
+if(sunny && hot){
+	SOPln("I am going to the beach");
+}
+
+-------------------------------------------
+OR ||
+true || true  --> TRUE
+true || false --> TRUE
+false || true --> TRUE
+false || false --> FALSE
+
+boolean rain=false;
+boolean cold=true;
+
+if (rain || cold) {
+	SOPln("I am staying home");
+}
+----------------------------------------------
+NOT ! - reverse the condition
+
+boolean checkboxSelected=false;
+
+if(!checkboxSelected) {
+
+	click;
+}
+ --------------------------------
+
+ Conditional statement:
+ 	1. if statement
+ 	2. switch statement
+
+switch syntax
+
+switch(variable) {
+
+	case value1:
+		code q;
+		break;
+	case value2:
+		code b;
+		break;
+	case value3:
+		code c;
+		break;
+
+}
+
+
+
+
