@@ -1,18 +1,15 @@
 package com.syntax.interview;
 
 
-
-import java.util.Arrays;
-
 public class RemoveDuplicates {
-
+/*
     public static void main(String[] args) {
         int[] arr = {10, 20, 10, 30, 40, 40};
         arr= removeDuplicates(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-   static int[] removeDuplicates(int[] arr) {
+   public static List<String> removeDuplicates(List<String> arr) {
         int[] duplicateElementsArr = new int[arr.length];
         int counter=0;
         for (int i = 0; i < arr.length; i++) {
@@ -42,5 +39,5 @@ public class RemoveDuplicates {
             }
         }
         return false;
-    }
+    }*/
 }

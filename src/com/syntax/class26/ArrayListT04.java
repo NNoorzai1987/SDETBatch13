@@ -8,10 +8,11 @@ public class ArrayListT04 {
         drinks.add("cook+");
         drinks.add("Taqela");
         drinks.add("fonta");
+        drinks.add("pepsi");
+
         for (int i = 0; i < drinks.size(); i++) {
             if (drinks.get(i).contains("a") || drinks.get(i).contains("e")) {
-                drinks.remove(i);
-                drinks.add(i, "Water");
+                drinks.set(i, "Water");
             }
         }
         System.out.println(drinks);}}

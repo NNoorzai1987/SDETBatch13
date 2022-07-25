@@ -11,6 +11,7 @@ public class ArrayListT02 {
         System.out.println(vehicle);
 
         System.out.println(vehicle.clone());
+        System.out.println(vehicle.subList(0,3));
 
         for (String s : vehicle) {
 
