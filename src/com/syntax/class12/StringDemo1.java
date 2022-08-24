@@ -5,7 +5,7 @@ public class StringDemo1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String name= new String("Oleg"); //proper way of creating an object from a class
+		String name= new String("Oleg is good man"); //proper way of creating an object from a class
 		
 		String name2="Oleg";  // its same as String name= new String("Oleg");
 		// All the classes in java can be treated as data types
@@ -24,7 +24,6 @@ public class StringDemo1 {
 		System.out.println(captain.toLowerCase());
 		captain="I love Java";
 		System.out.println(captain.toUpperCase());
-		
 	}
 
 }

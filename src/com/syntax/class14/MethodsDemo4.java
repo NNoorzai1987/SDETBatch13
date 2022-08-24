@@ -5,8 +5,8 @@ public class MethodsDemo4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MethodsDemo4 md=new MethodsDemo4();
-		System.out.println(md.sumNumbers(10, 10));
-		md.printManyTimes("Java", 3);
+		System.out.println(md.sumNumbers(10, 20));
+		md.printManyTimes("Java", 5);
 	}
 
 	//Write a method that takes a String and an int and printsout that String on the console 

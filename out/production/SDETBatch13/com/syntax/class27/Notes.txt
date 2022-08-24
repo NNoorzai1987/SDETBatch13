@@ -1,16 +1,25 @@
 Collections framework:
     Collections framework is a just a collection of interfaces and classes that have many
     methods to store and manipulate real life day to day data.
+
+
+
 Why We should learn Collections framework:
     Collections framework contains the classes that have pre-built methods to store and
     manipulate the data. These methods are battle tested
     (very well tested something we can use in production environment).
+
+
 How can we use the Collections framework:
     They are same classes just like any other class in java. We create the object of the
     class and start calling the methods we just need to take care of the diamond operator.
     we put the name of the class inside the diamond operator <> whos objects we will be
     storing inside these classes for example for Strings and Arraylist the syntax is
     ArrayList<String> objName=new ArrayList<>();
+
+
+
+
 What are wrapper classes:
     They are special classes built to work with collections framework which are replica of
     primitive data types but they are classes means we can use them just like any other class

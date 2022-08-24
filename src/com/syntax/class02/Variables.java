@@ -3,7 +3,7 @@ package com.syntax.class02;
 public class Variables {
     public static void main(String[] args) {
         // part a
-        String name="Zameer";
+/*        String name="Zameer";
         String lastName="Noori";
         char grade='B';
         String city="Falls Church";
@@ -22,7 +22,12 @@ public class Variables {
 
         System.out.println("My name is "+name+" "
                 + "and I moved to new city "+ city+" and new state"+state+". "
-                + "My new phone number is "+phone);
+                + "My new phone number is "+phone);*/
+        String s=null; System.out.println(s.length());
+        int[] a=new int[5]; a[10]=50;
+        StringBuffer sb = new StringBuffer("Hello");sb.append("World");System.out.println(sb);
+        StringBuffer sb3= new StringBuffer("Hello"); sb3.deleteCharAt(0); System.out.println(sb3);
+        StringBuilder sb1=new StringBuilder("Syntax"); sb.append("Solutions"); System.out.println(sb1);
     }
 
 }

@@ -19,9 +19,9 @@ public class Recap {
 		System.out.println(str.contains("z"));
 		System.out.println(str.startsWith("Batch"));
 		System.out.println(str.endsWith("ing"));
-		
-		
-		
+		System.out.println(str.contains("kidding"));
+		System.out.println(len);
+		System.out.println(str.length());
 		
 		
 		

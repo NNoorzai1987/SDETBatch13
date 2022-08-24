@@ -4,7 +4,7 @@ public class Recap {
 
 	public static void main(String[] args) {
 
-		for (int i = 1; i <= 5; i++) {
+	/*	for (int i = 1; i <= 5; i++) {
 
 			System.out.println("Hello"); // 5
 
@@ -16,7 +16,7 @@ public class Recap {
 		}
 		System.out.println(" -------------------");
 
-		/*
+		*//*
 		for (int i = 1; i <= 5; i++) {
 
 			System.out.println("Hello");
@@ -26,7 +26,7 @@ public class Recap {
 				System.out.println("Bye");
 			}
 		}
-		*/
+		*//*
 
 		System.out.println(" -------------------");
 
@@ -54,7 +54,7 @@ public class Recap {
 				break;
 			}
 
-		}
+		}*/
 		
 		System.out.println("----------------------------");
 		
@@ -65,7 +65,7 @@ public class Recap {
 			for (int y = 1; y <= 3; y++) {
 
 				System.out.println("Bye");
-				
+
 				continue;
 
 				//System.out.println("Bye");

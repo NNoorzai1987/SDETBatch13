@@ -7,7 +7,7 @@ public class GenericDemo {
         ArrayList<String> names=new ArrayList<>();
        // names.add(10); Error can only insert Strings
         ArrayList all=new ArrayList();
-        all.add(10);
+        System.out.println(all.add(10));
         all.add("Name");
         all.add(10.5);
 

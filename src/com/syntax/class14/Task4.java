@@ -20,6 +20,10 @@ public class Task4 {
 		
 		System.out.println();
 		//System.out.println(new StringBuilder(str).reverse());
+		String str1="School";
+		for(int i =str1.length()-1; i>=0; i--){
+			System.out.print(str1.charAt(i));
+		}
 	}
 
 }

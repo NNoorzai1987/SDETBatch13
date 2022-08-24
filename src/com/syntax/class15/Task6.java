@@ -21,6 +21,21 @@ public class Task6 {
 
     public static void main(String[] args) {
         Task6 task=new Task6();
-        System.out.println(task.isPrime(5));
+     /*   System.out.println(task.isPrime(6));*/
+
+      /*  String str="Hello";
+        for(int i=str.length()-1;i>=0;i--){
+            System.out.print(str.charAt(i));
+*/
+            int num=400;
+            int num1=500;
+
+            num=num+num1;
+            num1=num-num1;
+            num=num-num1;
+            System.out.println(num);
+            System.out.println(num1);
+
+        }
     }
-}
+

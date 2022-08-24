@@ -9,6 +9,7 @@ public class StringDemo1 {
 		System.out.println(str.replace("good", "Great"));
 		System.out.println(str.replace("g", "G"));
 		System.out.println(str.replaceFirst("g", "G"));
+		System.out.println(str.replace("a","A"));
 		
 		
 	}

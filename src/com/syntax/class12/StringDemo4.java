@@ -9,8 +9,8 @@ public class StringDemo4 {
 		String name2="kat";
 		System.out.println(name.equals(name2));
 		name2="KAT";
-		System.out.println(name.equalsIgnoreCase(name2));
-		
+		System.out.println(name.equals(name2));
+
 		
 		String userName="admin";
 		String password="pass123";

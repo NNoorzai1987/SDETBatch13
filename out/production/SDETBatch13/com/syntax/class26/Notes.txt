@@ -23,11 +23,7 @@ How we should use Encapsulation:
     1) make your variables as private.
     2) Create setter and getter methods to read and write these fields.
 ==================================================================
-What is Encapsulation in java:
-   Encapsulation is 4th pillar of OOPs.it is a mechanism that provides us security. if we use encapsulation we can have more security.
-How we should use Encapsulation:
-    1) make your variables as private.
-    2) Create setter and getter methods to read and write these fields.
+
 ==================================================================
 Basic unit to store data is a variable:
 It's easy to access the value by variable name we don't need to concern about indexes

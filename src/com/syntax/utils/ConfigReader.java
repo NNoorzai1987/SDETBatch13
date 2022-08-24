@@ -33,4 +33,7 @@ public class ConfigReader {
         }
         return properties;
     }
+
+    public static void closeFile(FileInputStream fileInputStream) {
+    }
 }

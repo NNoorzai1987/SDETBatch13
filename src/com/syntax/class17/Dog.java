@@ -1,7 +1,5 @@
 package com.syntax.class17;
 
-import java.util.PrimitiveIterator;
-
 public class Dog {
 
     String name;
@@ -10,8 +8,7 @@ public class Dog {
     int age;
     double weight;
 
-    Dog(String dogName,String dogBreed,String dogColor,
-        int dogAge,double dogWeight){
+    Dog(String dogName,String dogBreed,String dogColor,int dogAge,double dogWeight){
        name=dogName;
        breed=dogBreed;
        color=dogColor;

@@ -5,7 +5,7 @@ public class StringDemo7 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str=" I am always confused";
+		String str=" I am calways onfused";
 		
 		System.out.println(str.indexOf("am"));
 		System.out.println(str.indexOf("always"));

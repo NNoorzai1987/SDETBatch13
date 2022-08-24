@@ -6,10 +6,12 @@ public class DogTester {
                 "Grey",15,
                 20);
 
+
         Dog dog2=new Dog("Foofy","UK",
                 "Grey",18,
                 20);
         dog.printInfo();
+        dog2.printInfo();
 
     }
 }

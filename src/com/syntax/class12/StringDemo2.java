@@ -16,7 +16,7 @@ public class StringDemo2 {
 		System.out.println(name.isEmpty());
 		System.out.println(name.isEmpty());
 		
-		String captainAmerica=" ne   ver ";
+		String captainAmerica=" ne   ver.";
 		System.out.println(captainAmerica.trim());
 		
 	}

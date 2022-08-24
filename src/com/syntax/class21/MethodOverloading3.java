@@ -16,11 +16,11 @@ public class MethodOverloading3 {
     }
 
     void method(int num,String name){
-        System.out.println("5");
+        System.out.println(num+" "+name);
     }
 
     public static void main(String[] args) {
         MethodOverloading3 m=new MethodOverloading3();
-        m.method("Hamid",50);
+        m.method(1271,"Monument Blvd");
     }
 }

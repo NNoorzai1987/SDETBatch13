@@ -14,7 +14,8 @@ public class AnotherWay {
 		// I want to find a size of an array/how many elements?
 		int size=fruits.length;
 		System.out.println(size);
-		
-		
+
+
+
 	}
 }

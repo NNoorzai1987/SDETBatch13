@@ -10,7 +10,7 @@ public class StringDemo6 {
 		int counter = 0;
 
 		for (int i = 0; i < str.length(); i++) {
-			if (str.charAt(i) == '1') {
+			if (str.charAt(i) == '4') {
 				counter++;
 			}
 		}

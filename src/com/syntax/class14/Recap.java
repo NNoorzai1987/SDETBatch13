@@ -22,7 +22,9 @@ public class Recap {
 		String[] arr2=str.split("[#]");
 		System.out.println(arr2[0]);
 		System.out.println(arr2[1]);
-		
+
+
+
 	}
 
 }

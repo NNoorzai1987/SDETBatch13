@@ -8,8 +8,8 @@ public class MethodsDemo3 {
 		// TODO Auto-generated method stub
 
 		MethodsDemo3 md=new MethodsDemo3();
-		System.out.println(md.isEven(3));
-		System.out.println(md.checkString("hello"));
+		System.out.println(md.isEven(4));
+		System.out.println(md.checkString("Syntax"));
 	}
 	
 	//write a method that takes a String and returns true if number of characters in that String
