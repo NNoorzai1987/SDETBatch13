@@ -1,0 +1,61 @@
+Class 9
+
+break - keyword that break the loop {}
+continue; - keyword that skips current execution/iteration
+
+for (int i=1; i<=5; i++){
+
+	break;
+
+	System.out.println("Hello");
+
+}
+
+-----------------------------
+
+Nested Loops - loop inside another loop
+
+for (int i = 1; i <= 5; i++) {
+
+	System.out.println("Hello"); //1
+
+	for (int y = 1; y <= 3; y++) {
+
+		System.out.println("Bye");//3
+	}
+
+	break;
+
+}
+
+----------------------------------------
+
+for (int i = 1; i <= 5; i++) {
+
+	System.out.println("Hello"); 
+
+	for (int y = 1; y <= 3; y++) {
+
+		System.out.println("Bye");
+
+		break;
+	}
+}
+
+----------------------------------------
+
+for (int i = 1; i <= 5; i++) {
+
+	System.out.println("Hello"); 
+
+	for (int y = 1; y <= 3; y++) {
+
+		continue;
+
+		System.out.println("Bye");
+
+	}
+}
+
+
+

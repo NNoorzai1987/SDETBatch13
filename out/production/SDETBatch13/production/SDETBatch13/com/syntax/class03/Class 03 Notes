@@ -1,0 +1,74 @@
+Class 3
+
+String name="Dava";
+// + acts as concatenation operator
+System.out.println("Good Morning "+name);
+
+int num1=10;
+int num2=11;
+
+// + acts as arithmetic operator
+System.out.println(num1+num2);//11
+
+-, /, *, % - modulus
+
+int a=10;
+int b=3;
+
+System.out.println(a/b); //3
+System.out.println(a%b); //1
+
+System.out.println(10%5); //0
+
+int result=10+5*5;
+System.out.println(result); //35
+
+result=(10+5)*5;
+System.out.println(result); //75
+
+int c=100;
+String d="100";
+
+System.out.println(c+d);//100100
+
+Opreators:
+
+assignment =
+
+arithemntic +, -, *, /, %
+
+shorthand assignment
+
+
+Casting in Java -> converting 1 type into another. Can happen in 2 ways
+
+1. widening / implicit /automatic
+byte -> short -> int -> long -> float -> double
+
+double d=10;
+System.out.println(d); //10.0
+
+2. narrowing/ explicit /manually
+double -> float -> long -> int -> short -> byte
+
+int i=(int)100.99;
+System.out.println(i); //100
+
+Conditional Statements
+
+1. if statement
+
+SYNTAX
+
+if (true condtion) {
+	code;
+}
+
+---------------
+if (true condition) {
+	code A;
+
+}else {
+
+	code B;
+}

@@ -1,0 +1,46 @@
+loops:
+
+WHILE SYNTAX 
+
+	while(condtion) {
+		repetative code;
+	}
+
+DO WHILE SYNTAX 
+
+	do { 
+		code;
+	} while (condition);
+
+when we have to execute code at least 1 time --> then do loop is used
+
+for loop - executes block of code as long as condition is true. 
+For loop is the BEST choice to use when when know how many times we want/need to repeat block of code.
+
+I want to say GM 5 times.
+
+FOR LOOP SYNTAX
+
+for(initialization;condition;increment/decrement) {
+
+	block of code;
+}
+---------------------------------------
+
+we use for - when we know in advance how many times we want to iterate block of code
+
+we use while loop - when we do not know number of iterations
+
+		while - first checks the conditon
+		do while - executes code at least once before checking the condtion
+
+---------------------------------------
+Nested Loops - loop inside another loop
+
+	for(int i=1; i<=3; i++) { //outer loops
+		
+		System.out.println("Hello");
+
+	}
+
+	System.out.println("End");

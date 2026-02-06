@@ -1,0 +1,72 @@
+Java is a case-sensitive language.
+
+Home home
+
+In Eclipse we need only few windows:
+
+			how to find any window views:
+				Window -> Show View -> Select what you need
+
+			1. Project Explorer (Package Explorer)
+			2. Console - output of the program
+
+Syntax Classes
+
+javabasicsfromsyntax
+
+JavaBacisFromSyntax -> camel casing
+
+JavaBasics Project --> JRE
+					   src--> package 1 --> classes
+					   					--> class hghuho
+					   					--> clas opopp
+
+						  --> package 2 --> classes
+
+To create package/ class --> right click --> select
+								package or class
+				to give name to the class
+				we will follow camel casing
+
+To increase font in Eclipse
+
+Mac      cmd+
+Windows  ctrl+
+
+To rename class/package/project --> right click -> refactor->Rename
+
+
+2 Data Types In Java:
+
+Primitives in Java (8)
+
+	numeric:
+			whole numbers (10, 2022)
+
+				byte (-128 to 127)
+				short (-32768 to 32767)
+				int
+				long
+
+			decimal numbers (5.99, 90.01)
+
+				float
+				double
+
+	non numeric:
+
+			1 character(M, F, $, #)
+
+				char
+
+			true or false
+			 	boolean
+
+Non Primitives
+
+			"John", "Test123"
+
+
+
+
+

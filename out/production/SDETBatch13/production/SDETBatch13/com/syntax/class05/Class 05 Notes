@@ -1,0 +1,97 @@
+Class 5
+
+we use if else if --> when we need to test multiple conditions
+
+String browser="safari";
+
+if (browser.equals("chrome")) {
+	code a;
+}else if(browser.("firefox")) {
+	code b;
+}else if (browser.equals("safari")){
+	code c;
+}else {
+	code d;
+}
+
+
+we use nested if --> when we have 1 condition depend on another condition
+
+if (true){
+
+	code a;
+
+	if (true){
+		code b;
+	}
+}
+
+if{} , else if{}, else{}
+
+-------------------------------
+if (false){
+	code a;
+
+}else {
+	code b;
+
+	if(true){
+		code c;
+	}
+}
+
+-----------------------------------
+Scanner - used for user input
+
+import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+
+String
+int
+boolean
+double
+char
+
+Create a Java program that will ask if user has a credit card or not. If you user does not have a credit card then offer them. If they do have one
+ask what is balance on the card? If balance of the card is larger than 1000, tell them to pay off immediately, otherwise you can tell them that they can spend more.
+
+Scanner to capture answers
+yes/no -> next
+true/false -> nextBoolean();
+
+if(credit card) {
+
+	check balance
+
+	nextFloat();
+
+	if (balance>1000) {
+		pay
+	}else {
+		spend
+	}
+
+}else {
+
+	offer
+}
+
+-------------------------------------
+Logical Operators
+
+to test 1 or more condition in 1 statement
+
+AND &&
+true && true  --> TRUE
+true && false --> FALSE
+false && true --> FALSE
+false && false --> FALSE
+
+OR ||
+true || true  --> TRUE
+true || false --> TRUE
+false || true --> TRUE
+false || false --> FALSE
+
+NOT ! - reverse the condition

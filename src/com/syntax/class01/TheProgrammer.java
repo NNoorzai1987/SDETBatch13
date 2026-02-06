@@ -6,7 +6,7 @@ public class TheProgrammer {
 
         // This is my third Java Program
 
-        System.out.println("I am a Java Programmer");
+        System.out.println("I am a Java Programmer also try to learn python as well");
     }
 
 }

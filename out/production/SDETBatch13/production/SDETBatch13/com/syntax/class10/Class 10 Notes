@@ -1,0 +1,26 @@
+Class 10
+
+Array - container object that consist of values of same type
+
+array - is a java data structure 
+
+elements stored based on indexes. Starts from 0
+
+Array is fixed in size !!!
+
+String[] disney={"Shrek", "Elsa", "Goofy", "Mulan"};
+
+int size=disney.length;
+
+System.out.println(size); //4
+System.out.println(disney[1]); //Elsa
+
+System.out.println(disney[4]); //RE: ArrayIndexOutOfBoundsException
+
+String[] iceCream=new String[3];
+iceCream[0]="butter pecan";
+iceCream[1]="chocolate";
+System.out.println(iceCream[2]);//null
+
+
+
