@@ -36,7 +36,7 @@ Some Downsides not that down:
     2) int num vs integer num Wrapper classes occupy 4 times more memory as compared to
     primitive. but as tester we don't need to worry too much about these wrapper classes.
 ==============================================================================================
-List is the first interface that we will be discussing from the collections framework:
+List is the first interface that we will be discussing from the collections' framework:
 List:
     1) we can store duplicate data.
     2) insertion order is maintained.

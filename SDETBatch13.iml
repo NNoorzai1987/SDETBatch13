@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -39,5 +39,7 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-bin-5.2.2" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="poi-ooxml-5.5.1" level="project" />
+    <orderEntry type="library" name="poi-5.5.1" level="project" />
   </component>
 </module>

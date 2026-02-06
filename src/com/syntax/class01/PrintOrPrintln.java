@@ -4,9 +4,9 @@ public class PrintOrPrintln {
     public static void main(String[] args) {
         // see difference between println vs print
 
-        System.out.print("Hello");
+        System.out.println("Hello");
 
-        System.out.print("How are you ");
+        System.out.println("How are you ");
 
         System.out.println("I am learning coding");
 
@@ -15,5 +15,6 @@ public class PrintOrPrintln {
          * only spaces do not matter anywhere else sicne they
          * will be treated as white spaces -ignored
          */
+        System.out.println("I am learning java programming language");
     }
 }
